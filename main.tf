@@ -10,7 +10,6 @@ resource "azurerm_storage_account" "example" {
   shared_access_key_enabled       = var.shared_access_key_enabled
   min_tls_version                 = var.min_tls_version
   access_tier                     = var.access_tier
-  public_network_access_enabled   = var.public_network_access_enabled
   enable_https_traffic_only       = var.enable_https_traffic_only
 
   lifecycle {
